@@ -5,15 +5,15 @@ public class Main {
     public static class Product {
 
         public int product(int x, int y) {
-            return 0;
+            return x*y;
         }
 
         public int product(int x, int y, int z) {
-            return 0;
+            return x*y*z;
         }
 
         public double product(double x, double y) {
-            return 0.0;
+            return x*y;
         }
     }
 
